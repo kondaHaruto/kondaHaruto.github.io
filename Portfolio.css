@@ -1,0 +1,72 @@
+/* 全体のスタイル */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  text-align: center; /* 全体のテキストを中央揃え */
+}
+
+/* セクション全体の余白とスタイル */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #007BFF;
+  text-align: center; 
+}
+
+h3 {
+  color: #0056b3;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style: square;
+  text-align: left; 
+}
+
+.hobby-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#goal {
+  background-color: #e9f7fd;
+  border-left: 5px solid #007BFF;
+  padding: 10px 20px;
+  font-style: italic;
+  text-align: left; 
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
